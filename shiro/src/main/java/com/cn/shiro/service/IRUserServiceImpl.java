@@ -14,7 +14,7 @@ public class IRUserServiceImpl implements IRUserService {
     @Override
     public int addOrUpdate(User user) {
         int n=0;
-        if(user.getId()!=null){
+        if(user.getId()!=null){//
             n = userMapper.updateById(user.getId(),user.getUsername(),user.getPassword());
         }else {
             n = userMapper.add(user.getUsername(),user.getPassword());
