@@ -1,0 +1,203 @@
+2019/03/21-14:26 [main] INFO  com.cn.shiro.ShiroApplication- Starting ShiroApplication on ranger-Inspiron-7447 with PID 23770 (/usr/project/SpringBoot/shiro/target/classes started by ranger in /usr/project/SpringBoot)
+2019/03/21-14:26 [main] INFO  com.cn.shiro.ShiroApplication- The following profiles are active: dev
+2019/03/21-14:26 [main] WARN  tk.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.cn.shiro]' package. Please check your configuration.
+2019/03/21-14:26 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.cn.shiro]' package. Please check your configuration.
+2019/03/21-14:26 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/03/21-14:26 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/03/21-14:26 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019/03/21-14:26 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/03/21-14:26 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/03/21-14:26 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 1ms. Found 0 repository interfaces.
+2019/03/21-14:26 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$75f00ed5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/03/21-14:26 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$f5705c07] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/03/21-14:26 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
+2019/03/21-14:26 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/03/21-14:26 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/03/21-14:26 [main] INFO  org.apache.catalina.core.AprLifecycleListener- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019/03/21-14:26 [main] INFO  org.apache.jasper.servlet.TldScanner- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019/03/21-14:26 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/03/21-14:26 [main] DEBUG org.springframework.web.context.ContextLoader- Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019/03/21-14:26 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 2253 ms
+2019/03/21-14:26 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- 6 mappings in 'requestMappingHandlerMapping'
+2019/03/21-14:26 [main] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019/03/21-14:26 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/03/21-14:26 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter- ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019/03/21-14:26 [main] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019/03/21-14:26 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver- ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019/03/21-14:26 [main] INFO  org.mongodb.driver.cluster- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019/03/21-14:26 [cluster-ClusterId{value='5c932e86d771d45cdacd84c6', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection- Opened connection [connectionId{localValue:1, serverValue:6}] to localhost:27017
+2019/03/21-14:26 [cluster-ClusterId{value='5c932e86d771d45cdacd84c6', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster- Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 3]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2157600}
+2019/03/21-14:26 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper- Context refreshed
+2019/03/21-14:26 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper- Found {0} custom documentation plugin(s)
+2019/03/21-14:26 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner- Scanning for api listing references
+2019/03/21-14:26 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
+2019/03/21-14:26 [main] INFO  com.cn.shiro.ShiroApplication- Started ShiroApplication in 4.219 seconds (JVM running for 5.045)
+2019/03/21-14:26 [Thread-10] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/03/21-14:32 [main] INFO  com.cn.shiro.ShiroApplication- Starting ShiroApplication on ranger-Inspiron-7447 with PID 24030 (/usr/project/SpringBoot/shiro/target/classes started by ranger in /usr/project/SpringBoot)
+2019/03/21-14:32 [main] INFO  com.cn.shiro.ShiroApplication- The following profiles are active: dev
+2019/03/21-14:32 [main] WARN  tk.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.cn.shiro]' package. Please check your configuration.
+2019/03/21-14:32 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.cn.shiro]' package. Please check your configuration.
+2019/03/21-14:32 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/03/21-14:32 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/03/21-14:32 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019/03/21-14:32 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/03/21-14:32 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/03/21-14:32 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 1ms. Found 0 repository interfaces.
+2019/03/21-14:32 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d4b53e4c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/03/21-14:32 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$54358b7e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/03/21-14:32 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
+2019/03/21-14:32 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/03/21-14:32 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/03/21-14:32 [main] INFO  org.apache.catalina.core.AprLifecycleListener- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019/03/21-14:32 [main] INFO  org.apache.jasper.servlet.TldScanner- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019/03/21-14:32 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/03/21-14:32 [main] DEBUG org.springframework.web.context.ContextLoader- Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019/03/21-14:32 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 2146 ms
+2019/03/21-14:32 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- 7 mappings in 'requestMappingHandlerMapping'
+2019/03/21-14:32 [main] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019/03/21-14:32 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/03/21-14:32 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter- ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019/03/21-14:32 [main] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019/03/21-14:32 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver- ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019/03/21-14:32 [main] INFO  org.mongodb.driver.cluster- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019/03/21-14:32 [cluster-ClusterId{value='5c933005d771d45dde2433b5', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection- Opened connection [connectionId{localValue:1, serverValue:7}] to localhost:27017
+2019/03/21-14:32 [cluster-ClusterId{value='5c933005d771d45dde2433b5', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster- Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 3]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2637966}
+2019/03/21-14:32 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper- Context refreshed
+2019/03/21-14:32 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper- Found {0} custom documentation plugin(s)
+2019/03/21-14:32 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner- Scanning for api listing references
+2019/03/21-14:32 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping- Group for method Login was 登录模块
+2019/03/21-14:32 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner- Request mapping: Login belongs to groups: [[ResourceGroup{groupName='登录模块', position=0, controller=com.cn.shiro.controller.LoginController}]] 
+2019/03/21-14:32 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner- Created resource listing Path: /default/登录模块 Description: 登录模块 Position: 0
+2019/03/21-14:32 [main] INFO  springfox.documentation.schema.ModelContextKeyGenerator- Cache Key Generated: java.lang.String(true)
+2019/03/21-14:32 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect- Caching aspect applied for cache models with key java.lang.String(true)
+2019/03/21-14:32 [main] INFO  springfox.documentation.schema.ModelContextKeyGenerator- Cache Key Generated: java.lang.String(true)
+2019/03/21-14:32 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect- Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019/03/21-14:32 [main] INFO  springfox.documentation.spring.web.OperationsKeyGenerator- Cache key generated: /boot/shiro/web/login.com.cn.shiro.controller.LoginController.Login.DefaultGenericTypeNamingStrategy
+2019/03/21-14:32 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect- Caching aspect applied for cache operations with key /boot/shiro/web/login.com.cn.shiro.controller.LoginController.Login.DefaultGenericTypeNamingStrategy
+2019/03/21-14:32 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping- Group for method Login was 登录模块
+2019/03/21-14:32 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping- Group for method Login was 登录模块
+2019/03/21-14:32 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
+2019/03/21-14:32 [main] INFO  com.cn.shiro.ShiroApplication- Started ShiroApplication in 4.491 seconds (JVM running for 6.274)
+2019/03/21-14:32 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/03/21-14:32 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/03/21-14:32 [http-nio-8081-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet- Detected StandardServletMultipartResolver
+2019/03/21-14:32 [http-nio-8081-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet- enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019/03/21-14:32 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 9 ms
+2019/03/21-14:32 [http-nio-8081-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet- GET "/images/favicon-32x32.png", parameters={}
+2019/03/21-14:32 [http-nio-8081-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet- GET "/swagger-resources", parameters={}
+2019/03/21-14:32 [http-nio-8081-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped to org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019/03/21-14:32 [http-nio-8081-exec-3] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019/03/21-14:32 [http-nio-8081-exec-3] DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Resource not found
+2019/03/21-14:32 [http-nio-8081-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet- Completed 404 NOT_FOUND
+2019/03/21-14:32 [http-nio-8081-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet- "ERROR" dispatch for GET "/error", parameters={}
+2019/03/21-14:32 [http-nio-8081-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019/03/21-14:32 [http-nio-8081-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor- Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2019/03/21-14:32 [http-nio-8081-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor- Writing [[springfox.documentation.swagger.web.SwaggerResource@4eaa1e7b]]
+2019/03/21-14:32 [http-nio-8081-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor- Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019/03/21-14:32 [http-nio-8081-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor- Writing [{timestamp=Thu Mar 21 14:32:51 CST 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019/03/21-14:32 [http-nio-8081-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet- Completed 200 OK
+2019/03/21-14:32 [http-nio-8081-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet- Exiting from "ERROR" dispatch, status 404
+2019/03/21-14:32 [http-nio-8081-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet- GET "/v2/api-docs", parameters={}
+2019/03/21-14:32 [http-nio-8081-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped to public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2019/03/21-14:32 [http-nio-8081-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet- GET "/images/favicon-16x16.png", parameters={}
+2019/03/21-14:32 [http-nio-8081-exec-4] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019/03/21-14:32 [http-nio-8081-exec-4] DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Resource not found
+2019/03/21-14:32 [http-nio-8081-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet- Completed 404 NOT_FOUND
+2019/03/21-14:32 [http-nio-8081-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet- "ERROR" dispatch for GET "/error", parameters={}
+2019/03/21-14:32 [http-nio-8081-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019/03/21-14:32 [http-nio-8081-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor- Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019/03/21-14:32 [http-nio-8081-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor- Writing [{timestamp=Thu Mar 21 14:32:51 CST 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019/03/21-14:32 [http-nio-8081-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet- Exiting from "ERROR" dispatch, status 404
+2019/03/21-14:32 [http-nio-8081-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor- Using 'application/json;charset=utf-8', given [application/json;charset=utf-8, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019/03/21-14:32 [http-nio-8081-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor- Writing [springfox.documentation.spring.web.json.Json@2ea83510]
+2019/03/21-14:32 [http-nio-8081-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet- Completed 200 OK
+2019/03/21-14:32 [http-nio-8081-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet- GET "/configuration/security", parameters={}
+2019/03/21-14:32 [http-nio-8081-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped to org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019/03/21-14:32 [http-nio-8081-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet- GET "/configuration/ui", parameters={}
+2019/03/21-14:32 [http-nio-8081-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped to org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019/03/21-14:32 [http-nio-8081-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor- Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2019/03/21-14:32 [http-nio-8081-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor- Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2019/03/21-14:32 [http-nio-8081-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor- Writing [springfox.documentation.swagger.web.SecurityConfiguration@4c05b325]
+2019/03/21-14:32 [http-nio-8081-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor- Writing [springfox.documentation.swagger.web.UiConfiguration@24d73c99]
+2019/03/21-14:32 [http-nio-8081-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet- Completed 200 OK
+2019/03/21-14:32 [http-nio-8081-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet- Completed 200 OK
+2019/03/21-14:33 [Thread-12] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/03/21-14:33 [main] INFO  com.cn.shiro.ShiroApplication- Starting ShiroApplication on ranger-Inspiron-7447 with PID 24211 (/usr/project/SpringBoot/shiro/target/classes started by ranger in /usr/project/SpringBoot)
+2019/03/21-14:33 [main] INFO  com.cn.shiro.ShiroApplication- The following profiles are active: dev
+2019/03/21-14:33 [main] WARN  tk.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.cn.shiro]' package. Please check your configuration.
+2019/03/21-14:33 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.cn.shiro]' package. Please check your configuration.
+2019/03/21-14:33 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/03/21-14:33 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/03/21-14:33 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019/03/21-14:33 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/03/21-14:33 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/03/21-14:33 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 1ms. Found 0 repository interfaces.
+2019/03/21-14:33 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$560e332b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/03/21-14:33 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$d58e805d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/03/21-14:33 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
+2019/03/21-14:33 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/03/21-14:33 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/03/21-14:33 [main] INFO  org.apache.catalina.core.AprLifecycleListener- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019/03/21-14:33 [main] INFO  org.apache.jasper.servlet.TldScanner- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019/03/21-14:33 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/03/21-14:33 [main] DEBUG org.springframework.web.context.ContextLoader- Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019/03/21-14:33 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 2180 ms
+2019/03/21-14:33 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- 7 mappings in 'requestMappingHandlerMapping'
+2019/03/21-14:33 [main] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019/03/21-14:33 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/03/21-14:33 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter- ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019/03/21-14:33 [main] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019/03/21-14:33 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver- ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019/03/21-14:33 [main] INFO  org.mongodb.driver.cluster- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019/03/21-14:33 [cluster-ClusterId{value='5c933041d771d45e935e8b77', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection- Opened connection [connectionId{localValue:1, serverValue:8}] to localhost:27017
+2019/03/21-14:33 [cluster-ClusterId{value='5c933041d771d45e935e8b77', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster- Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 3]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2378015}
+2019/03/21-14:33 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper- Context refreshed
+2019/03/21-14:33 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper- Found {0} custom documentation plugin(s)
+2019/03/21-14:33 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner- Scanning for api listing references
+2019/03/21-14:33 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping- Group for method Login was 登录模块
+2019/03/21-14:33 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner- Request mapping: Login belongs to groups: [[ResourceGroup{groupName='登录模块', position=0, controller=com.cn.shiro.controller.LoginController}]] 
+2019/03/21-14:33 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner- Created resource listing Path: /default/登录模块 Description: 登录模块 Position: 0
+2019/03/21-14:33 [main] INFO  springfox.documentation.schema.ModelContextKeyGenerator- Cache Key Generated: java.lang.String(true)
+2019/03/21-14:33 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect- Caching aspect applied for cache models with key java.lang.String(true)
+2019/03/21-14:33 [main] INFO  springfox.documentation.schema.ModelContextKeyGenerator- Cache Key Generated: java.lang.String(true)
+2019/03/21-14:33 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect- Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019/03/21-14:33 [main] INFO  springfox.documentation.spring.web.OperationsKeyGenerator- Cache key generated: /boot/shiro/web/login.com.cn.shiro.controller.LoginController.Login.DefaultGenericTypeNamingStrategy
+2019/03/21-14:33 [main] INFO  springfox.documentation.spring.web.caching.CachingAspect- Caching aspect applied for cache operations with key /boot/shiro/web/login.com.cn.shiro.controller.LoginController.Login.DefaultGenericTypeNamingStrategy
+2019/03/21-14:33 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping- Group for method Login was 登录模块
+2019/03/21-14:33 [main] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping- Group for method Login was 登录模块
+2019/03/21-14:33 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
+2019/03/21-14:33 [main] INFO  com.cn.shiro.ShiroApplication- Started ShiroApplication in 4.703 seconds (JVM running for 5.535)
+2019/03/21-14:33 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/03/21-14:33 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/03/21-14:33 [http-nio-8081-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet- Detected StandardServletMultipartResolver
+2019/03/21-14:33 [http-nio-8081-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet- enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019/03/21-14:33 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 9 ms
+2019/03/21-14:33 [http-nio-8081-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet- GET "/swagger-ui.html", parameters={}
+2019/03/21-14:33 [http-nio-8081-exec-1] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019/03/21-14:33 [http-nio-8081-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet- Completed 304 NOT_MODIFIED
+2019/03/21-14:33 [http-nio-8081-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet- GET "/swagger-resources", parameters={}
+2019/03/21-14:33 [http-nio-8081-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped to org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019/03/21-14:33 [http-nio-8081-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor- Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2019/03/21-14:33 [http-nio-8081-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor- Writing [[springfox.documentation.swagger.web.SwaggerResource@f878763]]
+2019/03/21-14:33 [http-nio-8081-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet- Completed 200 OK
+2019/03/21-14:33 [http-nio-8081-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet- GET "/v2/api-docs", parameters={}
+2019/03/21-14:33 [http-nio-8081-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped to public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2019/03/21-14:33 [http-nio-8081-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor- Using 'application/json;charset=utf-8', given [application/json;charset=utf-8, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019/03/21-14:33 [http-nio-8081-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor- Writing [springfox.documentation.spring.web.json.Json@74c15d93]
+2019/03/21-14:33 [http-nio-8081-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet- Completed 200 OK
+2019/03/21-14:33 [http-nio-8081-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet- GET "/configuration/security", parameters={}
+2019/03/21-14:33 [http-nio-8081-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet- GET "/configuration/ui", parameters={}
+2019/03/21-14:33 [http-nio-8081-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped to org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019/03/21-14:33 [http-nio-8081-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped to org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019/03/21-14:33 [http-nio-8081-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor- Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2019/03/21-14:33 [http-nio-8081-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor- Writing [springfox.documentation.swagger.web.UiConfiguration@6a0e8fa9]
+2019/03/21-14:33 [http-nio-8081-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor- Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2019/03/21-14:33 [http-nio-8081-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor- Writing [springfox.documentation.swagger.web.SecurityConfiguration@2886777e]
+2019/03/21-14:33 [http-nio-8081-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet- Completed 200 OK
+2019/03/21-14:33 [http-nio-8081-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet- Completed 200 OK
+2019/03/21-14:33 [http-nio-8081-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet- POST "/boot/shiro/web/login", parameters={}
+2019/03/21-14:33 [http-nio-8081-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped to public java.lang.String com.cn.shiro.controller.LoginController.Login(java.lang.String,java.lang.String)
+2019/03/21-14:33 [http-nio-8081-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor- Using 'application/json;charset=utf8', given [application/json] and supported [application/json;charset=utf8]
+2019/03/21-14:33 [http-nio-8081-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor- Writing ["{"code":"200","status":"200"}"]
+2019/03/21-14:33 [http-nio-8081-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet- Completed 200 OK
+2019/03/21-14:34 [Thread-12] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
